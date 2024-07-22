@@ -27,9 +27,9 @@ public class PartidaXadrez {
 	}
 	
 	private void iniciaPartida() {
-		tabuleiro.LugarPeca(new Torre(tabuleiro, Cor.BRANCO), new Posicao(2, 1));
-		tabuleiro.LugarPeca(new Rei(tabuleiro, Cor.PRETO), new Posicao(0,4));
-		tabuleiro.LugarPeca(new Rei(tabuleiro, Cor.PRETO), new Posicao(7,4));
+		tabuleiro.colocaPeca(new Torre(tabuleiro, Cor.BRANCO), new Posicao(2, 1));
+		tabuleiro.colocaPeca(new Rei(tabuleiro, Cor.PRETO), new Posicao(0,4));
+		tabuleiro.colocaPeca(new Rei(tabuleiro, Cor.PRETO), new Posicao(7,4));
 	}
 	
 	
