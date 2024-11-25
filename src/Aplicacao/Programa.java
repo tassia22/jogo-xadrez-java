@@ -17,7 +17,7 @@ public class Programa {
 	
 	while(true) {
 		
-		try {
+		 try {
 			UI.clarearTela();
 			UI.printPartida(partidaXadrez);
 			System.out.println();
@@ -33,7 +33,6 @@ public class Programa {
 			System.out.println();
 			System.out.print("destino: ");
 			PosicaoXadrez destino = UI.lerPosicaoxadrez(scan);
-			
 			
 			PecaXadrez capturaPeca = partidaXadrez.performDeXadrez(origem, destino);
 		
