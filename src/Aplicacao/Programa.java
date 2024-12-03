@@ -15,7 +15,7 @@ public class Programa {
 	Scanner scan = new Scanner(System.in);
 	PartidaXadrez partidaXadrez = new PartidaXadrez();
 	
-	while(true) {
+	while(!partidaXadrez.getCheckMate()) {
 		
 		 try {
 			UI.clarearTela();
@@ -49,6 +49,9 @@ public class Programa {
 		}
 		
 	 }
+	
+	UI.clarearTela();
+	UI.printPartida(partidaXadrez, null);
 	
 	
 	}
